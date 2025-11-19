@@ -12,7 +12,7 @@
 
     <properties>
         <java.version>21</java.version>
-        <spring-boot.version>3.1.6</spring-boot.version>
+        <spring-boot.version>3.1.7</spring-boot.version>
     </properties>
 
     <!-- Spring Boot dependency BOM -->
