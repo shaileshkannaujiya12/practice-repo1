@@ -44,7 +44,7 @@ public class AuthController {
             String token = jwtUtil.generateToken(req.getUsername());
             return ResponseEntity.ok(new AuthResponse(token));
         } catch (AuthenticationException ex) {
-            return ResponseEntity.status(401).body("Invalid credentials");
+            return ResponseEntity.status(401).body("Invalid credentials !");
         }
     }
 }
